@@ -61,7 +61,7 @@ $active_record = TRUE;
 $db['default']['hostname'] = 'ruianderson.com.br';
 $db['default']['username'] = 'ruiand_root';
 $db['default']['password'] = '42301886';
-$db['default']['database'] = 'ruiand_projetophp';
+$db['default']['database'] = 'ruiand_exemplo';
 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
