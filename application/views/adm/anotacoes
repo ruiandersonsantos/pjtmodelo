@@ -1,0 +1,10 @@
+*** Tarefas da Aplicação ***
+
+- Terminar o formulário do corretor. ok
+- colocar a propriedade 'name' em todas as tags. ok
+- Criar tabela no SQl com o mesmo 'name' do formulário, com 'id' como chave primaria e 
+com campos vazios e nomes de colunas todas no plural. ok
+- Fazer tela de Login, com link para recuperação de senha de usuario. ok
+- Criar formulário de recuperação de senha de usuario com os campos de (email, celular, botao enviar). Obs.: não
+será necessário a criação de tabela no BD. ok
+- Criar tabela de usuário (id, email, senha), colunas todas no plural. ok

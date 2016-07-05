@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+/* Configura logo */
+.brand-logo {
+    margin-left: 20px;
+}
+/* ./logo */
+
+/* slider */
+/* Configura o texto do slider */
+.slider .slides li .caption, .text-slider-sub {
+    color: black;  
+}
+
+.slider.fullscreen {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+/*Configura o topo do texto do slider 3*/
+#text_slider3 {
+    top: 50%;
+}
+
+.espacamentoSuperior {
+    //margin-top: 89vh;
+   
+}
+
+.sessao_slider {
+    height: 95vh;
+}
+/* fim slider */
+
+
+/* sessoes */
+/* Configura a largura dos containers de todas as sessões */
+.div_container {
+    width: 80%;
+    height: max-content;
+}
+
+/* configura o padding das sessoes */
+.produtos, .planos, .sobre-o-corretor, .fale-conosco {
+    padding-bottom: 25px;
+    opacity: 0;/*aplica opacidade '0' nas sessoes para entao configurar o scrollfire via jQuery*/
+}
+
+/* sessao produtos */
+/* Configura o padding da sessao produtos */
+#div_titulo_produtos, #div_titulo_planos, #div_titulo_corretor, #div_titulo_faleconosco {
+    padding-top: 20px;
+}
+
+/* logomarca operadoras */
+img.responsive-img {
+    height: 100px;
+}
+
+/* Configura o padding da sessao produtos */
+#divCard_produtos{
+    height: 377.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Configura o padding da div card content dos produtos */
+#divContent_produtos {
+
+    height: 277.5px;
+    padding: 10px;
+}
+
+
+/* sessao planos */
+/* card */
+.div-cards {
+    /* Configura a largura do card e o padding interno */
+
+    width: 25%;
+    padding: 0px;
+}
+
+#div_content {
+    height: 159px;
+}
+
+.img-cards {
+    /*Configura a altura e a lagura da imagem em relacao ao card */
+
+    height: auto;
+    max-width: 100%;
+
+}
+
+.card .card-action a {
+    /* Configura o botao */
+
+    text-transform: none;
+    margin-right: 0px;
+    width: 100%;
+    padding: 0px;
+    color: white;
+}
+/* ./card */
+/* ./sessao planos */
+
+
+/* sessao sobre o corretor */
+
+
+#card_corretor {
+    margin-top: 0px;
+}
+/* ./sessao sobre o corretor */
+
+
+/* nao sei o que é */
+.chip-custom {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* nao sei o que é */
+#row_formulario {
+    margin-bottom: 0px;
+}
+
+/* fim sessoes */
+
+/* rodape */
+/* Configura o topo do footer */
+footer.page-footer {
+    margin-top: 0px;
+}
+
+/* Aplica margin no topo da logo do rodape */
+#logo_rodape {
+    margin-top: 15px;
+}
+
+/* Aplica padding no topo da div link do rodape */
+#div_link_rodape {
+    padding-top: 15px;
+}
+
+/* Configura o padding top da div de contato do footer */
+#div_contato_rodape {
+    padding-top: 5px;
+}
+
+#divContato_rodape {
+    margin-right: 10px;
+}
+
+#link_rodape_prod, #link_rodape_planos, #link_rodape_corretor, #link_rodape_faleConosco {
+    /* configura o espaçamento entre um link e outro no rodape */
+    padding: 0px 5px 0px 5px;
+}
+/* fim rodape */
+
+/* ------------------------------- Fim index.html ----------------------------------- */
+
+/* ------------------------------- Inicio formulario_orcamento.html ----------------- */
+
+/* navMenu */
+
+.no-active {
+    pointer-events: none;
+    cursor: default;
+
+}
+
+/* form faixa etaria */
+#div_row_form1 {
+    margin-top: 20px;
+}
+
+#divForm2_convenio {
+    margin-bottom: 0px;
+}
+
+.cadastro, .faixa_etaria {
+    margin-top: 0px;
+}
+
+#divContent_acesso {
+    height: 133px;
+}
+/* ./form faixa etaria */
+
+#divAction_convenio {
+    padding-bottom: 0px;
+    padding-top: 12px;
+}
+
+.divImage_convenio {
+    
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+#img_convenio {
+    border: 1px solid #0089ec;
+}
+
+#divPanel_contato {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#divPanel_contato p{
+    padding-top: 0px; 
+    font-size: 18px;
+}
+
+#divContato2, #divContato3 {
+   // margin-top: 0px;
+}
+
+#divContato2 span {
+    margin-right: 10px;
+}
+
+#imgWattsApp_rodape {
+    margin-left: 10px;
+}
+
+#divFooter {
+    padding-top: 0px;
+}
+
+/* Estilo css aplicado no pagina index-nocontainer.html */
+
+.slider-tmp-02 {
+    background: url(../img/textura.png);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* Configura logo */
+.brand-logo {
+    margin-left: 20px;
+}
+/* ./logo */
+
+
+
+
+/* ./form faixa etaria */
+
+
+/* rodape */
+footer.page-footer {
+  margin-top: 0px;
+}
+
+#logo_rodape {
+    margin-top: 0px;
+}
+
+#div_link_rodape {
+    padding-top: 10px;
+}
+
+#div_contato_rodape {
+    padding-top: 0px;
+}
+
+#link_rodape_prod, #link_rodape_planos, #link_rodape_corretor, #link_rodape_faleConosco {
+    /* configura o espaçamento entre um link e outro no rodape */
+    padding: 0px 5px 0px 5px;
+}
+/* fim rodape */
